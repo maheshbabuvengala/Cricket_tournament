@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Calendar, MapPin, Users, Zap, Globe } from "lucide-react";
 import { Link } from "react-router-dom";
 
-import Vide from "../assets/Cricket_stadium.mp4";
+import Vide from "../assets/cric.mp4";
 
 export default function Main() {
   // This would typically come from an API or database
