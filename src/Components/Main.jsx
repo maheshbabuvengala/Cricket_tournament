@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Calendar, MapPin, Users, Zap, Globe } from "lucide-react";
 import { Link } from "react-router-dom";
 
-import Vide from "../assets/cric.mp4";
+import Vide from "../assets/cup.mp4";
 
 export default function Main() {
   // This would typically come from an API or database
@@ -42,13 +42,12 @@ export default function Main() {
               to="/"
               className="hover:text-yellow-400 transition duration-300"
             >
-              Home
             </Link>
             <Link
-              href="/register"
+              to="/"
               className="bg-yellow-400 text-black px-4 py-2 rounded-full hover:bg-yellow-300 transition duration-300"
             >
-              Register
+              Home
             </Link>
           </nav>
         </div>
@@ -64,7 +63,7 @@ export default function Main() {
           Upcoming Tournaments
         </motion.h1>
 
-        <video autoPlay muted loop className="w-1/2 m-auto rounded-3xl">
+        <video autoPlay muted loop className=" m-auto rounded-3xl mt-3" style={{width:"300px"}}>
           <source src={Vide} />
         </video>
 
